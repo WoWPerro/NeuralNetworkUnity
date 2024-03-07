@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-enum Activation { ReLU, LeakyReLU, Softmax, Sigmoid, Linear, HyperbolicTangent, Derivative }
+public enum Activation { ReLU, LeakyReLU, Softmax, Sigmoid, Linear, HyperbolicTangent, Derivative }
 
 public class Neuron : MonoBehaviour
 {
